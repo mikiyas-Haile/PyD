@@ -1,12 +1,17 @@
 {
   "expo": {
-    "name": "pyd-mobile",
-    "slug": "pyd-mobile",
+    "name": "PyD",
+    "slug": "pyd",
     "version": "1.0.0",
+    "userInterfaceStyle": "automatic",
+    "notification": { 
+      "icon": "./assets/logos/pyd-logo/3.png",
+      "androidCollapsedTitle":"PyD"
+     }, 
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logos/pyd-logo/2.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logos/pyd-logo/2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,13 +25,15 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage":"./assets/logos/pyd-logo/2.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package" : "com.Asko.PyD"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logos/pyd-logo/2.png"
     }
   }
 }
